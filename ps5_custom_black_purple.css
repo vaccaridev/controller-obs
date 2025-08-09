@@ -1,0 +1,26 @@
+
+body {
+    background: transparent !important;
+}
+
+.controller.ds5 {
+    background-image: url(https://i.imgur.com/J07u4uo.png); /* Corpo preto */
+    background-size: cover;
+}
+
+/* Touchpad */
+.ds5 .touchpad {
+    background: linear-gradient(to right, purple 10%, black 40%, black 60%, purple 90%);
+    border-radius: 10px;
+}
+
+/* Botões e sticks */
+.ds5 .button, .ds5 .stick {
+    filter: brightness(1.2);
+}
+
+/* Leds */
+.ds5 .lightbar {
+    background: purple !important;
+    opacity: 0.9;
+}
